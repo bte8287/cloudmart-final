@@ -18,7 +18,7 @@ kubectl
 **/nvm
 nvm
 
-#.gitignore files to exclude
+#Additional ignore files to exclude
 .aws/
 .bash_history
 .bash_logout
@@ -34,3 +34,30 @@ nvm
 terraform-project_bkp/
 challenge-day2_bkp/
 challenge-day2/backend/__MACOSX/src/lambda/addToBigQuery/._google_credentials.json
+challenge-day2/backend/src/lambda/.DS_Store
+challenge-day2/backend/src/.DS_Store
+challenge-day2/backend/__MACOSX/src/lambda/._.DS_Store
+challenge-day2/backend/__MACOSX/src/._.DS_Store
+challenge-day2/backend/cloudmart-backend-final.zip
+.terraform/
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude provider binary
+*.tfvars
+*.tfvars.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+**/.terraform/
+**/.terraform.lock.hcl
