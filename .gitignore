@@ -1,0 +1,36 @@
+# Ignore google credentials file
+**/google_credentials.json
+
+# Ignore .zip files
+**/.zip
+
+# Ignore node_modules/
+**/node_modules/
+
+#Ignore cloudmart-backend_bkp.yaml file 
+**/cloudmart-backend_bkp.yaml
+
+#Ignore kubectl
+kubectl
+**/kubectl
+
+#Ignore nvm package manager
+**/nvm
+nvm
+
+#.gitignore files to exclude
+.aws/
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.cache/
+.docker/
+.kube/
+.npm/
+.nvm/
+.ssh/
+.terraform.d/
+terraform-project_bkp/
+challenge-day2_bkp/
+challenge-day2/backend/__MACOSX/src/lambda/addToBigQuery/._google_credentials.json
